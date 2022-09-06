@@ -12,7 +12,7 @@ async function bootstrap() {
         urls: [
           'amqps://xdtwwtef:XT_JcoaRWjuLnWOMpimCBNyUgY_ZYtPu@armadillo.rmq.cloudamqp.com/xdtwwtef',
         ],
-        queue: 'notification_queue',
+        queue: 'notification_queue1',
         noAck: true,
         queueOptions: {
           durable: false,
